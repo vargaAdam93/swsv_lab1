@@ -52,7 +52,7 @@ public class Yytoken {
 		case TYPE_EOF:
 			sb.append("END OF FILE");
 			break;
-		default :break; 
+		default: break; 
 		}
 		return sb.toString();
 	}
